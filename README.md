@@ -65,6 +65,7 @@ based terminal according to the following:
 1) GPB = The number of PC bits used to index the gshare table.
 2) RB = The global history register bits used to index the gshare table.
 3) Trace_File = The trace file name along with its extension.
+   
 The simulator should be able to read a trace file in the following format:
 <hex branch PC> t|n, in which “hex branch PC” is the address of the branch
 instruction in the memory (which is used to point to the predictors), “t” indicates that the branch
